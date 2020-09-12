@@ -5,8 +5,10 @@
 .layout {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    width: 100%;
+    width: 95%;
+    margin: auto;
     max-width: 96em;
+    align-items: center;
 }
 
 .row {
@@ -14,7 +16,16 @@
     grid-template-columns: repeat(12,1fr);
 }
 
-@media screen and (min-width: 34em){
+@media screen and (min-width: 52em){
+    .title{
+        font-size: 3em;
+        text-align: start;
+        width: 70%;
+    }
+    .description {
+        text-align: start;
+        width: 70%;
+    }
     .md-col-6 {
         grid-column: auto / span 6;
     }
@@ -22,7 +33,22 @@
         grid-column: auto / span 4;
     }
     .rating {
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-content: center;
+        padding-right: 7.5em;
+    }
+    .rating:nth-child(1){
+        align-self: flex-start;
+    }
+    .rating:nth-child(2){
+        align-self: center;
+    }
+    .rating:nth-child(3){
+        align-self: flex-end;
+    }
+    .stars{
+        margin: 0 1em;
     }
     .comment-container:nth-child(2){
         margin-top: 3em;
