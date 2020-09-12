@@ -1,0 +1,114 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a:link{
+    color: var(--primary-one);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--neutral-one);
+}
+
+a:hover{
+    color: var(--primary-two)
+}
+
+a:active{
+    color: var(--neutral-one);
+}
+
+.header {
+    padding: 5em 1em 1em 1em;
+    background-image: url('./../images/bg-pattern-top-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.title{
+    font-weight: 700;
+    text-align: center;
+    color: var(--primary-one);
+    margin-bottom: 1em;
+}
+
+.description{
+    color: var(--neutral-one);
+    text-align: center;
+}
+
+.ratings {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.rating {
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-weight: 700;
+    color: var(--primary-one);
+    background-color: var(--neutral-two);
+}
+
+.stars{
+    margin-bottom: 7.5px;
+}
+
+.comments {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.comment-container{
+    background-color: var(--primary-one);
+    color: var(--white);
+    padding: 30px;
+    margin: 1em;
+    width: 90%;
+}
+
+.comment-user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.comment-user-profile-photo{
+    padding: 1em;
+}
+
+.avatar{
+    width: 45px;
+    height: 45px;
+}
+
+.comment-user-info{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.comment-user-role{
+    color: var(--primary-two);
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.attribution{
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}

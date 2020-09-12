@@ -1,0 +1,33 @@
+.sm-col-12{
+    grid-column: auto / span 12;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 100%;
+    max-width: 96em;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+@media screen and (min-width: 34em){
+    .md-col-6 {
+        grid-column: auto / span 6;
+    }
+    .md-col-4{
+        grid-column: auto / span 4;
+    }
+    .rating {
+        flex-flow: row wrap;
+    }
+    .comment-container:nth-child(2){
+        margin-top: 3em;
+    }
+    .comment-container:nth-child(3){
+        margin-top: 6em;
+    }
+}
