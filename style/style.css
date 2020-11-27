@@ -3,6 +3,7 @@
 @import url('./comment.css');
 @import url('./rating.css');
 @import url('./layout.css');
+@import url('./header.css');
 
 :root{
     --primary-one: hsl(300, 43%, 22%);

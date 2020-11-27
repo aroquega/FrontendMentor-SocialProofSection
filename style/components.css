@@ -20,26 +20,6 @@ a:active{
     color: var(--neutral-one);
 }
 
-.header {
-    padding: 5em 1em 1em 1em;
-    background-image: url('./../images/bg-pattern-top-mobile.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.title{
-    font-weight: 700;
-    text-align: left;
-    font-size: 3em;
-    color: var(--primary-one);
-    margin-bottom: 1em;
-}
-
-.description{
-    color: var(--neutral-one);
-    text-align: center;
-}
-
 .attribution{
     margin: 1em;
     padding: 1em;
