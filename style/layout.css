@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 12;
+    grid-template-columns: repeat(12, 1fr);
     max-width: 1440px;
     margin: auto;
 }
@@ -16,7 +16,11 @@
     .container {
         padding: 0 10em;
     }
-    .text-section, .ratings-section {
-        grid-column: auto / span 6;
+
+    .text-section {
+        grid-column: 1 / 6;
+    }
+    .ratings-section {
+        grid-column: 6 / 13;
     }
 }

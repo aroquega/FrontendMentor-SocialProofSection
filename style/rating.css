@@ -5,16 +5,28 @@
 
 .rating {
     margin: 1em;
-    padding: 1em;
+    padding: 1em 0;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-evenly;
     font-weight: 700;
+    border-radius: 1em;
     color: var(--primary-one);
     background-color: var(--neutral-two);
 }
 
 .stars{
     margin-bottom: 7.5px;
+}
+
+@media only screen and (min-width: 930px){
+    .rating {
+        flex-flow: row wrap;
+        width: 80%;
+    }
+
+    .stars {
+        margin-bottom: 0;
+    }
 }
