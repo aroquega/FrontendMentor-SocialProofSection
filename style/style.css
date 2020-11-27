@@ -9,6 +9,9 @@
     --neutral-one: hsl(303, 10%, 53%);
     --neutral-two: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
+    
+
+    --desktop-width: 930px;
 }
 
 *,*::before,*::after{

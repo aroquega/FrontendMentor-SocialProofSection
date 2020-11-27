@@ -12,25 +12,11 @@
     grid-column: 1 / 13;
 }
 
-.comments-list {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.comment {
-    grid-column: 1 / 2;
-}
-
 @media only screen and (min-width: 930px){
     .container {
         padding: 0 10em;
     }
-
-    .comments-list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .comment {
-        grid-column: auto / span 1 ;
+    .text-section, .ratings-section {
+        grid-column: auto / span 6;
     }
 }
