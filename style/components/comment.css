@@ -14,11 +14,10 @@ Comment Component Style
 .comment {
     background-color: var(--primary-one);
     color: var(--white);
-    padding: 3em 2em;
+    padding: 2em 1.5em;
     margin: 1em;
     border-radius: 1em;
-    min-height: 17em;
-    height: 17em;
+    height: min-content;
 }
 
 .comment > .user-info {
