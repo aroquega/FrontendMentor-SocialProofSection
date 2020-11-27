@@ -1,6 +1,8 @@
-.ratings {
+.ratings-section {
     display: flex;
     flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: center;
 }
 
 .rating {
@@ -21,12 +23,23 @@
 }
 
 @media only screen and (min-width: 930px){
+    .ratings-section{
+        padding-left: 6em;
+    }
+
     .rating {
-        flex-flow: row wrap;
-        width: 80%;
+        flex-flow: row nowrap;
+        width: 30em;
     }
 
     .stars {
         margin-bottom: 0;
+    }
+
+    .rating:nth-child(2){
+        margin-left: 4em;
+    }
+    .rating:nth-child(3){
+        margin-left: 6em;
     }
 }
