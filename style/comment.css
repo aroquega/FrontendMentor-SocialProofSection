@@ -17,7 +17,8 @@ Comment Component Style
     padding: 3em 2em;
     margin: 1em;
     border-radius: 1em;
-    max-height: 17em;
+    min-height: 17em;
+    height: 17em;
 }
 
 .comment > .user-info {
@@ -46,7 +47,7 @@ Comment Component Style
     margin-top: 2.5em;
 }
 
-@media only screen and (min-width: 930px){
+@media only screen and (min-width: 80em){
     .comments-list {
         grid-template-columns: repeat(3, 1fr);
     }
