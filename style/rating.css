@@ -1,0 +1,20 @@
+.ratings {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.rating {
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 700;
+    color: var(--primary-one);
+    background-color: var(--neutral-two);
+}
+
+.stars{
+    margin-bottom: 7.5px;
+}
