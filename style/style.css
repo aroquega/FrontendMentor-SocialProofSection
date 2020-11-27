@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 @import url('./components.css');
+@import url('./comment.css');
 @import url('./layout.css');
 
 :root{
@@ -20,3 +21,4 @@ html {
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
 }
+
