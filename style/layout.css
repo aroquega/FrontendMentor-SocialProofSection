@@ -1,59 +1,13 @@
-.sm-col-12{
-    grid-column: auto / span 12;
-}
-
-.layout {
+.container {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    width: 80%;
+    grid-template-columns: 12;
+    max-width: 1200px;
     margin: auto;
-    max-width: 96em;
-    align-items: center;
 }
 
-.row {
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-}
-
-@media screen and (min-width: 52em){
-    .title{
-        font-size: 3em;
-        text-align: start;
-        width: 70%;
-    }
-    .description {
-        text-align: start;
-        width: 70%;
-    }
-    .md-col-6 {
-        grid-column: auto / span 6;
-    }
-    .md-col-4{
-        grid-column: auto / span 4;
-    }
-    .rating {
-        flex-flow: row nowrap;
-        justify-content: center;
-        align-content: center;
-        padding-right: 7.5em;
-    }
-    .rating:nth-child(1){
-        align-self: flex-start;
-    }
-    .rating:nth-child(2){
-        align-self: center;
-    }
-    .rating:nth-child(3){
-        align-self: flex-end;
-    }
-    .stars{
-        margin: 0 1em;
-    }
-    .comment-container:nth-child(2){
-        margin-top: 3em;
-    }
-    .comment-container:nth-child(3){
-        margin-top: 6em;
-    }
+.text-section,
+.ratings-section,
+.comments-section,
+.footer-section {
+    grid-column: 1 / 13;
 }
