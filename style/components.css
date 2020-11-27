@@ -60,50 +60,6 @@ a:active{
     margin-bottom: 7.5px;
 }
 
-.comments {
-    align-items: center;
-}
-
-.comment-container{
-    background-color: var(--primary-one);
-    color: var(--white);
-    padding: 30px;
-    margin: 1em;
-    min-height: 16em;
-}
-
-.comment-user{
-    display: flex;
-    align-items: center;
-    margin-bottom: 1em;
-}
-
-.comment-user-profile-photo{
-    padding: 1em;
-}
-
-.avatar{
-    width: 45px;
-    height: 45px;
-}
-
-.comment-user-info{
-    display: flex;
-    flex-flow: column wrap;
-}
-
-.comment-user-role{
-    color: var(--primary-two);
-}
-
-.rounded {
-    border-radius: 10px;
-}
-
-.circle {
-    border-radius: 50%;
-}
-
 .attribution{
     margin: 1em;
     padding: 1em;
