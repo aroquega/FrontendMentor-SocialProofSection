@@ -1,8 +1,5 @@
 .header {
     padding: 5em 1em 1em 1em;
-    background-image: url('./../images/bg-pattern-top-mobile.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
     margin-bottom: 2em;
 }
 
